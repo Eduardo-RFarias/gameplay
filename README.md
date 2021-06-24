@@ -1,3 +1,3 @@
-_Aula 2 => 1:32:10_
+_Aula 3 => 0_
 
-Fazendo component Category
+Começando aula 3
