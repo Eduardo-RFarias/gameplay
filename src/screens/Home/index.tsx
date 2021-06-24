@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, FlatList, Text } from 'react-native'
+import { View, FlatList } from 'react-native'
 import { Appointment } from '../../components/Appointment'
 import { ButtonAdd } from '../../components/ButtonAdd'
 import { CategorySelect } from '../../components/CategorySelect'
@@ -10,6 +10,7 @@ import { styles } from './style'
 
 export function Home() {
   const [category, setCategory] = useState('')
+
   const appointments = [
     {
       id: '1',
@@ -21,8 +22,7 @@ export function Home() {
       },
       category: '1',
       date: '22/06 às 20:40h',
-      description:
-        'É hoje que vamos chegar ao challenger sem perder uma partida da md10',
+      description: 'Soloq com o Leffa',
     },
     {
       id: '2',
@@ -33,9 +33,8 @@ export function Home() {
         owner: true,
       },
       category: '1',
-      date: '22/06 às 20:40h',
-      description:
-        'É hoje que vamos chegar ao challenger sem perder uma partida da md10',
+      date: '23/06 às 20:40h',
+      description: 'Flex das estrelas',
     },
   ]
 
